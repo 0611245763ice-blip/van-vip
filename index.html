@@ -7,33 +7,33 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         body { font-family: 'Arial', sans-serif; margin: 0; background: #f5f5f5; color: #333; }
-        header { background: linear-gradient(135deg, #0d6efd, #004aad); color: white; padding: 40px 20px; text-align: center; }
+        header { background: linear-gradient(135deg, #0d6efd, #004aad); color: white; padding: 50px 20px; text-align: center; }
         .container { max-width: 1000px; margin: auto; padding: 20px; }
         
-        /* ปุ่มติดต่อ */
-        .contact-bar { text-align: center; margin: 20px 0; }
-        .btn { display: inline-block; padding: 12px 25px; margin: 5px; border-radius: 10px; text-decoration: none; color: white; font-weight: bold; }
+        /* ปุ่มติดต่อด้านบน */
+        .contact-top { text-align: center; margin-bottom: 30px; }
+        .btn { display: inline-block; padding: 12px 25px; margin: 5px; border-radius: 10px; text-decoration: none; color: white; font-weight: bold; transition: 0.3s; }
         
         /* แกลเลอรี */
         h2 { border-left: 5px solid #004aad; padding-left: 15px; margin: 40px 0 20px; }
-        .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 10px; }
-        .gallery img { width: 100%; height: 150px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 15px; }
+        .gallery img { width: 100%; height: 160px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
         
-        /* ปุ่มลอย */
-        .float { position: fixed; right: 20px; bottom: 30px; display: flex; flex-direction: column; gap: 10px; z-index: 2000; }
-        .float a { width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); }
+        /* ปุ่มลอยด้านขวา */
+        .float { position: fixed; right: 20px; bottom: 30px; display: flex; flex-direction: column; gap: 12px; z-index: 2000; }
+        .float a { width: 55px; height: 55px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 22px; box-shadow: 0 4px 10px rgba(0,0,0,0.3); }
     </style>
 </head>
 <body>
 
 <header>
     <h1>🚐 รถตู้เช่า VIP ร้อยเอ็ด</h1>
-    <p>บริการท่องเที่ยว รับ-ส่งสนามบิน และงานพิธีการ</p>
+    <p>บริการท่องเที่ยว รับ-ส่งสนามบิน และงานพิธีการทั่วไทย</p>
 </header>
 
 <div class="container">
-    <div class="contact-bar">
-        <a class="btn" style="background:#28a745;" href="tel:0990091562"><i class="fas fa-phone-alt"></i> โทร: 099-009-1562</a>
+    <div class="contact-top">
+        <a class="btn" style="background:#28a745;" href="tel:0990091562"><i class="fas fa-phone-alt"></i> โทรเลย 099-009-1562</a>
         <a class="btn" style="background:#06c755;" href="https://line.me/ti/p/~0990091562"><i class="fab fa-line"></i> LINE</a>
     </div>
 
@@ -44,4 +44,20 @@
 
     <h2>ภายในรถ VIP</h2>
     <div class="gallery">
-        <img src="
+        <img src="https://i.ibb.co/zh6ZD4Tv/image.png"><img src="https://i.ibb.co/KjT2yBBq/image.png"><img src="https://i.ibb.co/tMLXbV64/image.png"><img src="https://i.ibb.co/0jXqLvtL/image.png"><img src="https://i.ibb.co/B5ycbNXQ/image.png"><img src="https://i.ibb.co/8nfpM8ZC/image.png">
+    </div>
+
+    <h2>รีวิวจากลูกค้า</h2>
+    <div class="gallery">
+        <img src="https://i.ibb.co/Kpqy0hxQ/image.png"><img src="https://i.ibb.co/bMS01h7J/image.png"><img src="https://i.ibb.co/yzqt1TP/image.png"><img src="https://i.ibb.co/q3VNqy23/image.png"><img src="https://i.ibb.co/wFdFWcv3/image.png">
+    </div>
+</div>
+
+<div class="float">
+    <a href="tel:0990091562" style="background:#28a745;"><i class="fas fa-phone-alt"></i></a>
+    <a href="https://line.me/ti/p/~0990091562" style="background:#06c755;"><i class="fab fa-line"></i></a>
+    <a href="https://m.me/karome5188" style="background:#0084ff;"><i class="fab fa-facebook-messenger"></i></a>
+</div>
+
+</body>
+</html>
